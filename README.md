@@ -226,7 +226,7 @@ popup是用户点击插件图标时打开的一个小窗口，当失去焦点后
 
 因为content_script脚本存在于当前页面,受同源策略影响,导致我们无法将捕获到的数据传给第三方平台或者自己的服务器, 所以我们需要基于浏览器的通信API.一下是谷歌浏览器插件的通信流程:
 
-![https://pic2.zhimg.com/80/v2-5a05979498bf90fe0443290623e1c8cd_720w.jpg](https://pic2.zhimg.com/80/v2-5a05979498bf90fe0443290623e1c8cd_720w.jpg)
+![images/v2.jpg](images/v2.jpg)
 
 ### 2.**3.1 popup和background相互通信**
 
